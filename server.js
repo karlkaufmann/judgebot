@@ -6,7 +6,7 @@ const log = utils.getLogger('bot');
 log.info(`booting up...`);
 
 // basic server stuff, modules to load
-const commandChar = process.env.COMMAND_CHAR || "!";
+const commandChar = process.env.COMMAND_CHAR || "%";
 const spamTimeout = 3000; // milliseconds
 const modules = [
     'card',
